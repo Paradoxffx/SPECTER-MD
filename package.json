@@ -1,12 +1,12 @@
 {
-"name": "SPECTER MD",
+"name": "SPECTER",
     "version": "1.0.0",
-    "description": "PAIR CODE TO CHANGE THE WORLD 🌎.",
+    "description": "PAIR CODE TO CHANGE THE WORLD.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name specter md",
-      "stop": "pm2 stop specter md",
-     "restart": "pm2 restart specter md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name specter",
+      "stop": "pm2 stop specter",
+     "restart": "pm2 restart specter"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
